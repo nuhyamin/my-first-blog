@@ -1,22 +1,16 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title>MY blog</title>
-	<style type="text/css">
-		body{margin:30px;
-			border-style: ridge;
-			padding:10px;}
-		.postcontent{font-family: book antiqua;
-					font-size:18pt;
-					text-align: justify;}
-		h1{text-align: center;}
-	</style>
+	<title>My blog</title>
 	<link rel='stylesheet' href="/maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel='stylesheet' href="/maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="{% static 'css/blog.css' %}">
 </head>
 <body>
-	<div>
-		<h1><a href="/">Learning Django</a></h1>
+	<div class='blogtitle'>
+		<h1><a href="/">English Language Teaching (ELT)</a></h1>
 	</div>
 	{% for post in posts %}
 	<div class='postcontent'>
