@@ -1,0 +1,24 @@
+body{background-color: rgba(140,60,108,100)}
+
+.blogtitle h1 {font-family: Arial black;
+		font-size:20pt;
+		text-align:center;}
+.blogtitle p{font-family: Arial;
+		text-align:center;}
+.blogtitle{background-color: orange;
+		color:black;
+		height:120%;
+		border:ridge;}
+
+.postcontent{background-color:rgba(128,200,50,190);
+		border:flat;
+		padding:20px;
+		font-family: book antiqua;
+		font-size:18pt;
+		margin-left:100px;
+		margin-right:100px;
+		margin-top:20px;}
+#posttitle{font-family: book antiqua;
+		font-size:40pt;
+		color:dark brown;}
+#para{text-align: justify;}

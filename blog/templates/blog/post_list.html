@@ -17,8 +17,8 @@
 	<div class='postcontent'>
 		<p>Published: {{post.published_date}}</p>
 		<p>Author: Nuh Yamin</p>
-		<h1>{{post.title}}</h1>
-		<p>{{post.text|linebreaksbr}}
+		<h1 id='posttitle'>{{post.title}}</h1>
+		<p id='para'>{{post.text|linebreaksbr}}
 	</div>
 	{% endfor %}
 </body>
