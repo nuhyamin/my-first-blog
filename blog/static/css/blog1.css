@@ -1,0 +1,12 @@
+body{background-color: powderblue}
+
+.blogtitle{height:9em;
+		color:#000000;
+		background-color:rgba(250,110,20,170)}
+
+.blogtitle h1{color:maroon;
+			text-align:center;}
+
+.blogtitle p{text-align:center;}
+
+.blogtitle hr{height:2px;}
