@@ -12,14 +12,9 @@
 		<p>Nuh Yamin 2018 </br> email: yamnuh@gmail.com </br> website: <a href="nuhyamin.pythonanywhere.com">	nuhyamin.pythonanywhere.com</a></p>
 		<hr>
 	</div>
-	{% for post in posts %}
-	<div class='maincontent'>
-		<p>Published:{{post.published_date}}</p>
-		<p>Author: Nuh Yamin</p>
-		<h1 id='posttitle'>{{post.title}}</h1>
-		<p id='para'>{{post.text|linebreaksbr}}
+	<div>
+	{% block content %}
+	{% endblock %}
 	</div>
-	{% endfor %}
-
 </body>
 </html>

@@ -1,12 +1,22 @@
-body{background-color: powderblue}
+body{background-color: skyblue}
 
 .blogtitle{height:9em;
-		color:#000000;
+		color:#253521;
 		background-color:rgba(250,110,20,170)}
 
-.blogtitle h1{color:maroon;
+.blogtitle h1{color:yellow;
 			text-align:center;}
 
 .blogtitle p{text-align:center;}
 
-.blogtitle hr{height:2px;}
+.blogtitle hr{height:3px;}
+
+/*.maincontent{background-color:lightgreen;
+		margin:30px;
+		font-family:book antiqua;
+		padding:10px;
+		border:ridge;}
+
+#posttitle{font-size:30pt;}
+#para{font-size:16pt;}*/
+
